@@ -1,0 +1,3 @@
+# Algorithm
+
+Some basic algorithm
