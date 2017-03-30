@@ -1,3 +1,3 @@
 # Algorithm
 
-Some basic algorithm
+Some basic algorithm, include C and Python
