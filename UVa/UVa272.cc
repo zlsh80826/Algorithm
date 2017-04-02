@@ -1,10 +1,10 @@
 #include <cstdio>
 
-int main(int argc, char const *argv[]) {
+int main(int argc, char const* argv[]) {
     char in;
     bool flag = true;
 
-    while ( (in = getchar()) != EOF ) {
+    while ((in = getchar()) != EOF) {
         if (in == '"') {
             printf("%s", flag ? "``" : "''");
             flag = !flag;
