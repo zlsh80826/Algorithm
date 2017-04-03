@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "*.cc": "cpp",
-        "sstream": "cpp"
+        "sstream": "cpp",
+        "cstdio": "cpp"
     }
 }
