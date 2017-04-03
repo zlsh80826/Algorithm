@@ -26,7 +26,7 @@ void print_table() {
                 std::cout << " " << map[i][j];
         }
         std::cout << "\n";
-    } 
+    }
 }
 
 int main() {
@@ -52,9 +52,10 @@ int main() {
         if (isterminate)
             break;
         bool fail = false;
-        while ( (c = getchar()) != '0' ) {
+        while ((c = getchar()) != '0') {
             int ind = trans(c);
-            if (ind < 0 || fail) continue;
+            if (ind < 0 || fail)
+                continue;
             int newx = xmove[ind] + x;
             int newy = ymove[ind] + y;
             if (newx >= size || newx < 0 || newy >= size || newy < 0) {
@@ -67,7 +68,8 @@ int main() {
                 y = newy;
             }
         }
-        if ( n > 0 ) std::cout << '\n';
+        if (n > 0)
+            std::cout << '\n';
         std::cout << "Puzzle #" << ++n << ":" << std::endl;
         if (fail)
             std::cout << "This puzzle has no final configuration.\n";
