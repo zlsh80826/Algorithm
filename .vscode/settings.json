@@ -2,6 +2,7 @@
     "files.associations": {
         "*.cc": "cpp",
         "sstream": "cpp",
-        "cstdio": "cpp"
+        "cstdio": "cpp",
+        "functional": "cpp"
     }
 }
